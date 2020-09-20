@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14073386399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeTCExecution()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Facebook login with valid un and valid pwd",
+        "description": "",
+        "id": "facebook-login-use-case;facebook-login-with-valid-un-and-valid-pwd",
+        "after": [
+          {
+            "result": {
+              "duration": 163487500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204940500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when user is on landing page",
+            "match": {
+              "location": "LoginStepDefinition.when_user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332145501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid un as \"sadasrk@gmail.com\" and pwd as \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sadasrk@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_valid_un_as_and_pwd_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128240000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "when user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.when_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Rameshsoft"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login use case",
+    "description": "",
+    "id": "facebook-login-use-case",
+    "keyword": "Feature",
+    "uri": "D:/D_EclipseWorkSpace/CucumberAndTestNG/src/main/java/com/qa/features/Login.feature"
+  }
+]

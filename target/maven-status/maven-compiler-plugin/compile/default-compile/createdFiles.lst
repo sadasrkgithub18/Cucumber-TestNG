@@ -1,0 +1,2 @@
+com\qa\stepDefinitions\LoginStepDefinition.class
+com\qa\MyRunner\LoginRunner.class
